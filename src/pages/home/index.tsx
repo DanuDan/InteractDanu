@@ -28,7 +28,7 @@ export default function Home() {
                     <FeatureInfoDashboard />
                     <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-5">
                         <div className="flex flex-col w-full md:w-[60%]">
-                            <div className="flex flex-col md:flex-row w-full md:space-x-4">
+                            <div className="flex flex-col transition-all overflow-x-auto scrollbar-none overflow-hidden md:flex-row w-full md:space-x-4">
                                 <FeatureChart />
                                 <FeatureChartOrders />
                                 <FeatureChartProfit />
